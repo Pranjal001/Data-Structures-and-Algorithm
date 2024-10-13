@@ -3,7 +3,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
- 
+
+
+
+// another idea is to use topological sort to get longest path
+
+
+
 // bool dfs( ll i, vector<vector<ll>>& adj_list, vector<ll>& visit, vector<ll>& cycle, vector<ll>& res){
 //     if(cycle[i] == 1) return false;
 //     if(visit[i] == 1) return true;
