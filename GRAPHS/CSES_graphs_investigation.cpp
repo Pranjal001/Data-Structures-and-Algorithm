@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// good question to genralise all possibilities of dijkstra algorithm
+
 const long long MOD = 1e9+7;
 
 int main()
