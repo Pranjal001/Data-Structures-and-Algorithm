@@ -3,8 +3,8 @@
  
 using namespace std;
 
-//similar to 2 colorable problem
-// generatlized version :  m - colorable graph recursion problem
+// Similar to 2 colorable problem form striver sheet
+// Generatlized version :  m - colorable graph recursion problem
 // KEYWORDS : DFS , color vector (for storing color value and acting as visited) , currcolor changes after every call
 
 bool dfs(int node, vector<int> &color , vector<vector<int>> &adj, int currcolor)

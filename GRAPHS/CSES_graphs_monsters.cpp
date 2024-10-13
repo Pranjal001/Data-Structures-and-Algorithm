@@ -2,7 +2,10 @@
 #include <bits/stdc++.h>
  
 using namespace std;
-
+// KEYWORD : BFS (rotten oranges)
+// Start by adding all monsters to the queue and at last the hero update the neighbours of monsters
+// and for hero update the direction of possible cells
+// do this until queue is empty or the hero reaches the border/dest backtrack the direction on the grid back to hero
 char mat[1001][1001]={'#'};
 vector<int> dirx = {1,0,-1,0};
 vector<int> diry = {0,1,0,-1};
