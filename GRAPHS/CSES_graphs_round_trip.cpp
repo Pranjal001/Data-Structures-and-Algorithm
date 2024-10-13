@@ -3,7 +3,8 @@
 #include <bits/stdc++.h>
 using namespace std;
  
- 
+ // KEYWORD : Cycle detection , Backtracking
+ // when conflict in cycle detection store those two points those points are part of the cycle backtrack and return the result
 bool dfs1(int node, int parent, vector<vector<int>>& adj_list, vector<int>& visit, int& res){
     visit[node] = 1;
     res = node;
